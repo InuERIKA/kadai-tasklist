@@ -21,7 +21,7 @@
 
                 		<tr>
                 			<th>更新日時</th>
-                			<fmt:formatDate value="${task.updated_date}" pattern="yyyy-MM-dd HH:mm:ss" />
+                			<td><fmt:formatDate value="${task.updated_date}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 		</tr>
                 	</tbody>
                 </table>
